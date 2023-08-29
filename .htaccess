@@ -1,0 +1,15 @@
+# Enable Rewrite Engine
+RewriteEngine on
+
+# Set CI_ENV environment variable
+SetEnv CI_ENV development
+
+# Set the base folder path
+RewriteBase /sipa/
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+RewriteRule ^(.*)$ index.php/$1 [L]
