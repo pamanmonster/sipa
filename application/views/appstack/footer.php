@@ -22,7 +22,7 @@
 							</div>
 							<div class="col-6 text-end">
 								<p class="mb-0">
-									&copy; 2023 - <a href="index.html" class="text-muted">Admin OMI - Koperasi Pegawai Telkom Yogyakarta</a>
+									&copy; 2023 - <a href="index.html" class="text-muted">SIPA</a>
 								</p>
 							</div>
 						</div>
